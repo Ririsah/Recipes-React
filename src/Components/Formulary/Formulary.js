@@ -1,6 +1,6 @@
 import './Formulary.css';
 
-const Formylary = () => {
+const Formulary = () => {
     return (
         <div className="formulary-container">
 
@@ -17,4 +17,4 @@ const Formylary = () => {
     )
 };
 
-export default Formylary;
+export default Formulary;

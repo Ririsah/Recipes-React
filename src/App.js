@@ -2,7 +2,7 @@ import './App.css';
 import About from './Components/About/About';
 import Cover from './Components/Cover/Cover';
 import Footer from './Components/Footer/Footer';
-import Formylary from './Components/Formulary/Formulary';
+import Formulary from './Components/Formulary/Formulary';
 import Header from './Components/Header/Header';
 import Recipes from './Components/Recipes/Recipes';
 import Socials from './Components/Socials/Socials';
@@ -18,7 +18,7 @@ function App() {
       </div>
       <div class="wrapper2">
         <div>
-          <Formylary />
+          <Formulary />
           <About />
         </div>
       </div>
