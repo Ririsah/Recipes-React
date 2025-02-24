@@ -1,0 +1,132 @@
+.followers-container {
+    background-color: var(--bg-white);
+    margin-left: 30px;
+    border-radius: 3px;
+    border: 3px solid var(--bg-dark-green);
+    overflow: hidden;
+    max-width: 330px;
+}
+
+.followers-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-dark-green);
+    color: var(--text-base-light);
+    padding: 30px 30px;
+}
+
+.followers-title > h4 {
+    font-size: 1.3rem;
+}
+
+.follower-field {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #e7e7e7;
+}
+
+.follower-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: var(--border-radius);
+    margin: 15px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.follower-name > h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--text-base-green);
+}
+
+.follower-name > p {
+    font-size: 0.6rem;
+    font-weight: bold;
+    opacity: 40%;
+}
+
+.suggestion-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-dark-green-2);
+    max-width: 270px;
+    font-size: 1.1rem;
+    margin-left: 30px;
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 3px;
+    border: 3px solid var(--bg-dark-green);
+}
+
+.suggestion-container > p {
+    color: var(--text-base-dark);
+    font-weight: bold;
+}
+
+.suggestion-item {
+    font-size: 0.8rem;
+    opacity: 70%;
+}
+
+.suggestion-form > input,
+.suggestion-form > textarea,
+.suggestion-form > button {
+    border: none;
+    border-radius: 3px;
+}
+
+.suggestion-form > input {
+    width: 95%;
+    height: 40px;
+    padding: 5px 5px;
+    margin: 20px 0;
+}
+
+.suggestion-form > textarea {
+    width: 99%;
+}
+
+.suggestion-form > button {
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    background-color: var(--bg-red);
+    color: var(--text-base-light);
+    cursor: pointer;
+}
+
+.suggestion-form > button:hover {
+    transition: 1s;
+    background-color: #252525;
+}
+
+
+/* -- Responsividade Socials -- */
+
+@media (max-width: 1000px) {
+    .followers-container {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .suggestion-container {
+        max-width: 100%;
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .followers-container {
+        margin: 10px;
+    }
+
+    .suggestion-container {
+        margin: 10px;
+    }
+}

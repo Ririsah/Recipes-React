@@ -1,0 +1,86 @@
+.formulary {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: var(--bg-red);
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2rem;
+    color: var(--text-base-light);
+    border: none;
+}
+
+fieldset > p {
+    color: var(--text-base-light);
+}
+
+fieldset > input, 
+fieldset > button {
+    border: none;
+    border-radius: var(--border-radius);
+    height: 40px;
+    font-size: 1.1rem;
+}
+
+fieldset > input {
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+.name-field {
+    width: 20%;
+    margin-left: 10px;
+}
+
+.email-field {
+    width: 45%;
+}
+
+fieldset > button {
+    width: 10%;
+    padding: 0 10px;
+    background-color: var(--bg-orange);
+    color: var(--text-base-light);
+    cursor: pointer;
+}
+
+fieldset > button:hover {
+    transition: 1s;
+    background-color: #70a000;
+}
+
+
+/* -- Responsividade formulary -- */
+
+@media (max-width: 1600px) {
+    fieldset > button {
+        width: 20%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .formulary-container {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .formulary {
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .formulary-container {
+        margin: 0;
+    }
+
+    fieldset,
+    fieldset > input,
+    fieldset > button {
+        font-size: 1rem;
+    }
+}

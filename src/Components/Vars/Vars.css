@@ -1,0 +1,22 @@
+:root {
+    /* Text Colors */
+    --text-base-dark: #363d2b;
+    --text-base-green: #7a8370;
+    --text-base-light: #ffffff;
+
+    /* Bg Colors */
+    --bg-red: #f84600;
+    --bg-orange: #df8615;
+    --bg-green: #dadac6;
+    --bg-light-green: #f0f0d8;
+    --bg-dark-green: #7a8370;
+    --bg-dark-green-2: #b5c0a8;
+    --bg-white: #ffffff;
+
+    /* Fonts */
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-poiret-one: "Poiret One", sans-serif;
+
+    /* Border */
+    --border-radius: 50px;
+}
