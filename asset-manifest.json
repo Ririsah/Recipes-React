@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Recipes-React/static/css/main.bb6c736d.css",
+    "main.js": "/Recipes-React/static/js/main.1c8af141.js",
+    "static/media/receita_9.png": "/Recipes-React/static/media/receita_9.67b003770c0099c43cda.png",
+    "static/media/receita_4.png": "/Recipes-React/static/media/receita_4.c8f1d45babe6c8ac0c1e.png",
+    "static/media/receita_1.png": "/Recipes-React/static/media/receita_1.a8a02782380d6a58a35a.png",
+    "static/media/receita_6.png": "/Recipes-React/static/media/receita_6.e1f6e3553a1633a87e9d.png",
+    "static/media/receita_3.png": "/Recipes-React/static/media/receita_3.ff187d1228816543adc6.png",
+    "static/media/receita_2.png": "/Recipes-React/static/media/receita_2.e7d1b5fce538264303e1.png",
+    "static/media/receita_5.png": "/Recipes-React/static/media/receita_5.55e07fd101365f175f68.png",
+    "static/media/receita_8.png": "/Recipes-React/static/media/receita_8.d9abb9d9eecbc10b515a.png",
+    "static/media/receita_7.png": "/Recipes-React/static/media/receita_7.21a4098981ba9d69715b.png",
+    "static/media/cover.png": "/Recipes-React/static/media/cover.1564c7693ed0c6735538.png",
+    "static/media/Eliza.png": "/Recipes-React/static/media/Eliza.d885f64cf42f47243afe.png",
+    "static/media/follower_5.jpg": "/Recipes-React/static/media/follower_5.61d4e228de2ff9a65bfa.jpg",
+    "static/media/follower_3.jpg": "/Recipes-React/static/media/follower_3.ee721621b373acacffbc.jpg",
+    "static/media/follower_1.jpg": "/Recipes-React/static/media/follower_1.98088e0b4278d763ba7d.jpg",
+    "static/media/follower_4.jpg": "/Recipes-React/static/media/follower_4.59021167b8613b9ff1fb.jpg",
+    "static/media/follower_2.jpg": "/Recipes-React/static/media/follower_2.6b620bd35b15cbc5a0ef.jpg",
+    "static/media/badge.png": "/Recipes-React/static/media/badge.5f849c487ecd89c03403.png",
+    "static/media/twitter.png": "/Recipes-React/static/media/twitter.c6e48e60f856cb822273.png",
+    "static/media/pinterest.png": "/Recipes-React/static/media/pinterest.e38f3012dc571ed17e78.png",
+    "static/media/facebook.png": "/Recipes-React/static/media/facebook.49e67d43221b6bb1aa86.png",
+    "static/media/dot.png": "/Recipes-React/static/media/dot.a4c64fd457119e00fbb8.png",
+    "static/media/rating.png": "/Recipes-React/static/media/rating.5a6c1814520d4a959b91.png",
+    "index.html": "/Recipes-React/index.html",
+    "main.bb6c736d.css.map": "/Recipes-React/static/css/main.bb6c736d.css.map",
+    "main.1c8af141.js.map": "/Recipes-React/static/js/main.1c8af141.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb6c736d.css",
+    "static/js/main.1c8af141.js"
+  ]
+}
