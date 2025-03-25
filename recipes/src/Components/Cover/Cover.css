@@ -55,7 +55,7 @@
 }
 
 .Eliza-photo {
-    background: url(../../assets/Images/Cover/cover.png) center / cover;
+    background: url(../../assets/Images/Eliza/Eliza.png) center / cover;
     border-radius: 50%;
     border: 1px solid var(--bg-white);
     width: 50px;
